@@ -7,7 +7,7 @@ import { saveAs } from 'file-saver';
 // 4. 应用所有图片
 // 5.下载
 
-export default App = () => {
+const App = () => {
   const [images, setImages] = useState([]);
   const [watermarkImage, setWatermarkImage] = useState('');
   const [watermarkPositionX, setWatermarkPositionX] = useState(0.5);
@@ -220,4 +220,6 @@ export default App = () => {
     </div>
   );
 };
+
+export default App;
 
